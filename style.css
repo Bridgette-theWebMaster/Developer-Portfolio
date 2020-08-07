@@ -1,0 +1,183 @@
+/*------ General styling ------*/
+
+body{
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(4, 50, 63);
+  color: rgba(255, 255, 255, 0.616);
+}
+
+header{
+  background-color: black;
+  background-image: url(photos/blue-and-white.jpeg);
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+
+.logo{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 50px;
+  color: rgba(9, 196, 248, 0.384);
+  text-align: center;
+  margin: 0px;
+  padding: 25px 0 0 0;
+}
+
+/*------ Navagation menu ------*/
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li{
+  list-style-type: circle;
+}
+
+header nav ul li a{
+  color: rgb(255, 255, 255);
+  font-weight: 14;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+/* ------ Primary Groups ------ */
+main{
+  padding: 30px 0;
+}
+
+section{
+  margin-bottom: 90px;
+}
+
+section.solid-background{
+  background-image: url(photos/white-and-blue-trees.jpeg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 50px 0;
+}
+
+footer{
+  background-color: rgb(2, 17, 44);
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* ------ typography ------ */
+
+h1{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 28;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+h2{
+  font-size: 24;
+  color: rgb(0, 0, 0, 0.616);
+  margin: 0 15px;
+}
+
+h2.light-font{
+  color: rgba(255, 255, 255, 0.616);
+  text-align: center;
+}
+
+h3{
+  font-size: 22px;
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+p.dark-font{
+  color: rgb(0, 0, 0, 0.616);
+}
+
+footer p{
+  text-align: center;
+  font-size: 12px;
+}
+
+main img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+main a {
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+main a:link {color: rgba(255, 255, 255, 0.616);}
+main a:visited{color: rgb(255, 255, 255);}
+
+.contact-logo{
+  width: 8%;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  flex: 1;
+  margin: 10px;
+}
+
+/* ------ (desktop) groups & items ------ */
+
+@media all and (min-width: 800px){
+  header nav ul li a:hover {
+    color: darkgrey;
+  }
+
+  section{
+    padding: 0 10%;
+  }
+
+  main a:hover{color: darkgrey;}
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .group{
+    flex-direction: row;
+  }
+}
+
+/* ------ contact form ------ */
+
+form{
+  padding-right: 5px;
+}
+
+form label{
+  display: block;
+}
+
+form input,
+form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form textarea{
+  height: 100px;
+}
