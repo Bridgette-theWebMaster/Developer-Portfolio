@@ -106,7 +106,7 @@ p{
 }
 
 p.dark-font,
-ul.dark-font{
+ul li.dark-font{
   color: rgb(0, 0, 0, 0.616);
 }
 
