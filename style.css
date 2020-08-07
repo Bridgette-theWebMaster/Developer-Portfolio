@@ -9,7 +9,7 @@ body{
 
 header{
   background-color: black;
-  background-image: url(photos/blue-and-white.jpeg);
+  background-image: url(blue-and-white.jpeg);
   margin-bottom: 30px;
   padding-bottom: 50px;
 }
@@ -58,7 +58,7 @@ section{
 }
 
 section.solid-background{
-  background-image: url(photos/white-and-blue-trees.jpeg);
+  background-image: url(white-and-blue-trees.jpeg);
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 50px 0;
