@@ -105,7 +105,8 @@ p{
   margin: 0 10px;
 }
 
-p.dark-font{
+p.dark-font,
+ul.dark-font{
   color: rgb(0, 0, 0, 0.616);
 }
 
