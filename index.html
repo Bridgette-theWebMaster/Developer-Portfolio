@@ -69,7 +69,7 @@
         <h2 class= "light-font" id= "contact">Connect With Me</h2>
         <div class= "group">
           <div class= "item">
-           <form action= "process-form.js" method= "post">
+           <form action= "script.js" method= "post">
               <label for="user-name">Name:</label>
               <input id="user-name" type="text" name="name">
 
@@ -93,6 +93,10 @@
     <!-- footer -->
     <footer>
       <p>Web architect: Bridgette Turner</p></footer>
-    <script src="script.js"></script>
+    <script src="script.js">
+      function submitform(){
+        document.myform.submit();
+      }
+    </script>
   </body>
 </html> 
